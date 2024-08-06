@@ -1,0 +1,42 @@
+.card{
+    width:200;
+    height:200;
+    font-size:small;
+    font-weight:bolder;
+    margin: 20px;
+    text-align: center;
+
+    }
+
+.card-img-top {
+    height: 200px;
+    
+}
+
+
+
+.btn {
+    color: black;
+    
+    background: linear-gradient(to right, black 50%, rgb(253,85,113) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    border-radius: 30px;
+    }
+    
+    
+    
+    .btn:hover {
+    background-position: left bottom;
+    color: white;
+    }
+    
+    .img{
+    transition: 3s;
+    transition-timing-function: ease-out;
+    }
+    .card:hover{
+    transform: scale(1.05);
+    transition-timing-function: ease-out;
+    }

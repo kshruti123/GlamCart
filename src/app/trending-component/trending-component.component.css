@@ -1,0 +1,60 @@
+.container-fluid{
+  width: 100%;
+  height:900px;
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: row;
+}
+img{
+
+height: 330px;
+width: 250px;
+border: 2px;
+
+
+
+}
+
+/* .img1{
+height: 300px;
+width: 300px;
+} */
+.card{
+
+width: 340px;
+height: 380px;
+margin: 30px;
+display: inline-block;
+border: 3px solid black ;
+
+border-radius: 20px; 
+transition: transform 1s;
+
+
+
+
+
+}
+.product{
+margin-top: 13px;
+height: 355px;
+width: 350px;
+border: 1px;
+border-radius: 5px;
+
+
+
+
+}
+.card:hover{
+transform: scale(1.1); 
+}
+h5{
+text-align: center;
+font-style: italic;
+text-decoration: none;
+} 
+
+
+
