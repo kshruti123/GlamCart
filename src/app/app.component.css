@@ -1,0 +1,147 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.mi {
+  margin-left: 5px;
+}
+.card {
+  margin: 15px;
+}
+.pd {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 0 auto rgb(233, 230, 230);
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+}
+.p {
+  text-align: justify;
+  padding: 20px;
+  /* border: 1px solid black; */
+  overflow: scroll;
+  height: 200px;
+}
+.small-img {
+  display: flex;
+  justify-content: space-between;
+}
+.small {
+  width: 25%;
+  flex-basis: 24%;
+  cursor: pointer;
+  padding: 20px;
+}
+.small:hover {
+  scale: 1.1;
+}
+.m1 {
+  /* margin-top: 50px; */
+  padding: 20px;
+}
+#sl {
+  display: inline;
+  padding: 3px;
+  margin: 10px;
+  margin-top: 0;
+}
+#nm {
+  width: 50px;
+  padding: 3px;
+  margin: 10px;
+  display: inline;
+}
+
+.dis {
+  font-weight: lighter;
+  color: rgb(240, 46, 46);
+  display: inline;
+  margin: 10px;
+}
+.rel {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Arial Narrow Bold";
+  font-weight: bolder;
+  margin: 20px 0;
+}
+.rimg {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.reli {
+  width: 95%;
+  height: 350px;
+  box-shadow: 3px 3px;
+}
+.rel-img {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 23%;
+}
+.img {
+  position: relative;
+  top: 0;
+  transition: 0.5s;
+}
+.img:hover {
+  top: -10px;
+  /* scale: 1.2; */
+}
+.icn {
+  display: flex;
+  justify-content: space-around;
+}
+.icn-1 {
+  margin: 40px 0;
+  scale: 2;
+  color: rgb(49, 49, 46);
+  cursor: pointer;
+}
+.rel-link {
+  color: rgb(0, 0, 0);
+}
+.b1 {
+  display: flex;
+  justify-content: space-between;
+}
+.pd_btn {
+  width: 49%;
+  margin-bottom: 20px;
+  background-color: rgb(50, 46, 46);
+}
+.rad {
+  margin: 15px;
+}
+
+.rad1 {
+  margin-right: 10px;
+  margin-top: 10px;
+  /* font-size: 20rem; */
+  /* padding-left: 10px; */
+}
+.size {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(242, 242, 242);
+}
+label {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+.fa-heart:hover {
+  color: red;
+}

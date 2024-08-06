@@ -1,0 +1,63 @@
+.rel {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Arial Narrow Bold";
+  font-weight: bolder;
+  margin: 20px 10px;
+}
+.rimg {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.reli {
+  margin: 5px;
+  width: 275px;
+  height: 350px;
+  border-radius: 10px;
+  /* box-shadow: 3px 3px gray; */
+}
+.rel-img {
+  text-align: center;
+  margin-bottom: 30px;
+  /* width: 23%; */
+}
+
+.img {
+  position: relative;
+  top: 0;
+  transition: 0.5s;
+}
+.card:hover {
+  top: -10px;
+  /* scale: 1.2; */
+}
+.dis {
+  font-weight: lighter;
+  color: rgb(240, 46, 46);
+  display: inline;
+  /* float: left; */
+  margin: 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .rimg {
+    display: none;
+  }
+  .rel-img {
+    margin-left: 20%;
+    width: 60% !important;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #carouselExampleControls {
+    display: none;
+    margin: 0 10%;
+  }
+}
+img.small {
+  margin: 0px;
+  padding: 10px;
+}
